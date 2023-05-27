@@ -14,14 +14,21 @@
             align-items: center;
         }
         h3{
-            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-left: 30px;
         }
         #DisplayBox{
             text-align: center;
-            border: 5px solid black;
+            font-family: monospace;
+            border: 3px solid black;
             border-radius: 5px;
             padding-left: 30px;
             margin-left: 40px;
+            background-color: azure;
+        }
+        #numpara{
+            font-family: monospace;
+            font-size: 50px;
         }
     </style>
 </head>
@@ -41,8 +48,8 @@
             $diff = $codeopen % 6;
             $DisplayCode = $codeopen - $diff;
         }
-        
-        echo $DisplayCode;
+         
+        echo "<p id = 'numpara'>".$DisplayCode."</p>";
         ?>
     </div>
 </body>
