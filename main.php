@@ -9,16 +9,31 @@
     <link rel="stylesheet" href="bootstrap3/css/bootstrap.min.css">
     <link rel="stylesheet" href="MyStyle.css">
     <script src="script.js"></script>
+    <style>
+        body{
+            align-items: center;
+        }
+        h3{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+        #DisplayBox{
+            text-align: center;
+            border: 5px solid black;
+            border-radius: 5px;
+            padding-left: 30px;
+            margin-left: 40px;
+        }
+    </style>
 </head>
 </head>
 <body class="jumbotron">
     <div >
-        <h1>Welcome User</h1>
+        <h3>Welcome, User</h3>
     </div>
-    <div class = "col-sm-4 login">
+    <div class = "col-sm-4 login" id="DisplayBox">
         <p>Your Code is </p>
         <?php
-        $codeopen = rand(0000, 9999);
+        $codeopen = rand(1000, 9999);
         
         if (($codeopen % 6 == 0)){
             $DisplayCode = $codeopen;
