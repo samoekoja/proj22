@@ -1,0 +1,58 @@
+#pinin{
+    align-self: center;
+    background-color: rgb(197, 211, 214);
+    padding-top: 10px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    padding-bottom: 30px;
+}
+#login{
+    background-color: rgb(197, 211, 214);
+    align-self: center;
+    padding-top: 10px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    padding-bottom: 30px;
+}
+h1{
+    color: rgb(75, 72, 72);
+}
+
+
+.headshot{
+    padding-top: 15px;
+    padding-right: 15px;
+    height: 250px;
+    width: 230px;
+   
+}
+.imgdiv{
+    width:250px;
+    height: 270px;
+    align-content: center;
+    border:2px solid rgb(156, 155, 155);
+    border-radius: 20px;
+    background-color: rgb(205, 205, 253);
+}
+.basic{
+    /* margin-left: 20px; */
+    text-align: justify;
+    background-color: rgb(205, 205, 253);
+    padding-top: 10px;
+    padding-left: 20px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    width: inherit;
+}
+.hh1{
+    text-align: left;
+    font-family: "Comic Sans MS";
+}
+.further{
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    width: inherit;
+}
